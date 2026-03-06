@@ -27,7 +27,7 @@ transition={{delay:0.5}}
 className="mt-6 text-xl text-gray-400"
 >
 
-Analista-Desarrolladora de Siftware
+Analista-Desarrolladora de Software
 
 </motion.p>
 
