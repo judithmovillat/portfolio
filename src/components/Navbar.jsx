@@ -1,39 +1,16 @@
-"use client"
+import React from "react";
 
-import { motion } from "framer-motion"
+const Navbar = () => {
+  return (
+    <nav className="fixed w-full flex justify-between items-center p-6 bg-darkBlack z-50">
+      <h1 className="text-2xl font-bold text-primaryViolet">Mi Portfolio</h1>
+      <ul className="flex gap-6">
+        <li><a href="#about" className="text-primaryBlue hover:text-primaryViolet">Sobre mí</a></li>
+        <li><a href="#projects" className="text-primaryBlue hover:text-primaryViolet">Proyectos</a></li>
+        <li><a href="#contact" className="text-primaryBlue hover:text-primaryViolet">Contacto</a></li>
+      </ul>
+    </nav>
+  );
+};
 
-export default function Navbar(){
-
-return(
-
-<nav className="fixed w-full flex justify-between items-center p-6 bg-black/40 backdrop-blur-md z-50">
-
-<motion.h1 
-initial={{opacity:0}}
-animate={{opacity:1}}
-className="text-xl font-bold text-violet-400"
->
-Mi Portfolio
-</motion.h1>
-
-<ul className="flex gap-6">
-
-<li className="hover:text-violet-400 cursor-pointer">
-Sobre mí
-</li>
-
-<li className="hover:text-violet-400 cursor-pointer">
-Proyectos
-</li>
-
-<li className="hover:text-violet-400 cursor-pointer">
-Contacto
-</li>
-
-</ul>
-
-</nav>
-
-)
-
-}
+export default Navbar;

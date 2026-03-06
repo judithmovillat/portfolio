@@ -1,34 +1,14 @@
-"use client"
+import React from "react";
 
-import { motion } from "framer-motion"
+const About = () => {
+  return (
+    <section id="about" className="py-20 text-center px-4">
+      <h2 className="text-4xl font-bold text-primaryBlue mb-4">Sobre mí</h2>
+      <p className="max-w-xl mx-auto text-lightWhite leading-relaxed">
+      Soy analista-desarrollador de software enfocada en desarrollos evolutivos y correctivos con tecnologías Oracle y de bases de datos, así como el análisis del impacto de las aplicaciones sobre los datos y viceversa.
+      </p>
+    </section>
+  );
+};
 
-export default function About(){
-
-return(
-
-<section className="py-32 max-w-4xl mx-auto text-center">
-
-<motion.h2
-initial={{opacity:0}}
-whileInView={{opacity:1}}
-className="text-4xl font-bold text-violet-400"
->
-
-Sobre mí
-
-</motion.h2>
-
-<p className="mt-6 text-gray-400">
-
-Soy analista-desarrollador de software enfocada en desarrollos
-evolutivos y correctivos con tecnologías Oracle y de bases de datos
-así como el análisis del impacto de las aplicaciones sobre los
-datos y viceversa.
-
-</p>
-
-</section>
-
-)
-
-}
+export default About;

@@ -1,38 +1,13 @@
-"use client"
+import React from "react";
 
-import { motion } from "framer-motion"
+const Hero = () => {
+  return (
+    <section id="hero" className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-primaryBlue to-primaryViolet">
+      <h2 className="text-5xl md:text-6xl font-bold text-lightWhite">Hola, soy <span className="text-primaryViolet">Judith Movilla</span></h2>
+      <p className="mt-4 text-xl text-lightWhite">Analista-Desarrolladora de Software</p>
+      <a href="#projects" className="mt-6 px-6 py-3 bg-primaryViolet text-lightWhite rounded-lg font-bold hover:bg-primaryBlue transition">Ver Proyectos</a>
+    </section>
+  );
+};
 
-export default function Hero(){
-
-return(
-
-<section className="h-screen flex flex-col justify-center items-center text-center">
-
-<motion.h1
-initial={{opacity:0,y:50}}
-animate={{opacity:1,y:0}}
-transition={{duration:1}}
-className="text-6xl font-bold"
->
-
-Hola 👋  
-Soy <span className="text-violet-400">Judith Movilla</span>
-
-</motion.h1>
-
-<motion.p
-initial={{opacity:0}}
-animate={{opacity:1}}
-transition={{delay:0.5}}
-className="mt-6 text-xl text-gray-400"
->
-
-Analista-Desarrolladora de Software
-
-</motion.p>
-
-</section>
-
-)
-
-}
+export default Hero;
