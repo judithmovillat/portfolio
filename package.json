@@ -1,31 +1,36 @@
 {
-  "name": "mi-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "dev": "webpack serve --mode development --open",
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.13.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.10.1",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@fortawesome/free-solid-svg-icons": "^6.6.0",
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
-    "@emailjs/browser": "^3.11.0"
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "babel-loader": "^8.2.3",
-    "css-loader": "^6.5.1",
-    "style-loader": "^3.3.1",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "autoprefixer": "^10.4.27",
+    "babel-loader": "^8.4.1",
+    "css-loader": "^6.11.0",
     "html-webpack-plugin": "^5.5.0",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0",
-    "tailwindcss": "^3.4.14"
+    "postcss": "^8.5.8",
+    "postcss-loader": "^8.2.1",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.4.19",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
   }
 }

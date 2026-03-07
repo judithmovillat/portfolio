@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.linkedin-badge-container {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente si hay altura */
+  margin: 2rem 0;          /* opcional: espacio arriba y abajo */
+}
+.skills-section {
+  margin: 2rem 0;
+}
+.skills-filters button {
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.skills-filters button:hover {
+  background-color: #e0e0e0;
+}
+.skills-category h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+.skills-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.skill-level {
+  color: #666;
+  font-size: 0.9rem;
+  margin-left: 0.3rem;
+}
