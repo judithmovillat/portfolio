@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 const App = () => {
+
   return (
     <div className="bg-darkBlack text-lightWhite min-h-screen">
       <Navbar />
