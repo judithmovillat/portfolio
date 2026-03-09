@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "./static/js/main.1ecea038.js",
+    "main.js": "./static/js/main.415d972e.js",
+    "static/media/junta_andalucia.png": "./static/media/junta_andalucia.0adab2bb9c2ffae02d79.png",
+    "static/media/profile.jpg": "./static/media/profile.c10d26dd066d26f7c57b.jpg",
+    "static/media/rapidminer_logo.jpg": "./static/media/rapidminer_logo.fbf0d97f6d8ee9ae8364.jpg",
+    "static/media/md.jpg": "./static/media/md.d0a60510d6eb7d2fc351.jpg",
     "index.html": "./index.html",
-    "main.1ecea038.js.map": "./static/js/main.1ecea038.js.map"
+    "main.415d972e.js.map": "./static/js/main.415d972e.js.map"
   },
   "entrypoints": [
-    "static/js/main.1ecea038.js"
+    "static/js/main.415d972e.js"
   ]
 }
