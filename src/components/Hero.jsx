@@ -21,7 +21,7 @@ const Hero = () => {
 
           <a
             href="#projects"
-            className="mt-6 inline-block px-6 py-3 bg-babyViolet text-lightWhite rounded-lg font-bold hover:bg-primaryBlue transition"
+            className="mt-6 inline-block px-6 py-3 bg-babyViolet text-lightWhite rounded-lg font-bold border-2 border-white shadow-lg"
           >
             Ver Proyectos
           </a>
