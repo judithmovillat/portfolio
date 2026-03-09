@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="h-screen flex items-center justify-center bg-gradient-to-br from-primaryBlue via-pink-400 to-primaryViolet px-4 font-poppins"
+      className="h-screen flex items-center justify-center bg-gradient-to-br from-primaryBlue via-purple-600 to-primaryViolet px-4 font-poppins"
     >
       <div className="flex flex-col-reverse md:flex-row items-center gap-8 max-w-4xl w-full">
         {/* Texto */}
