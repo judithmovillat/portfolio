@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import ContactButtons from "./ContactButtons";
-import SocialBadgesHero from "./SocialBadgesHero";
 
 const Contact = () => {
   const [status, setStatus] = useState("");
