@@ -122,18 +122,27 @@ export default function Trajectory() {
                     <h4 className="text-babyBlue mb-2">{item.subtitle}</h4>
                     <p className="text-gray-300">{item.description}</p>
 
+                    <span
+                      className={`text-sm mt-3 block ${
+                        isCurrent
+                          ? "text-babyPurple font-semibold"
+                          : "text-gray-400"
+                      }`}
+                    >
+                      {item.date}
+                    </span>
+
                     {/* BOTÓN SOLO SI HAY LINK */}
                     {item.link && (
                       <a
                         href={item.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-4 py-2 bg-babyPurple text-black font-semibold rounded-full hover:bg-primaryBlue transition text-xs sm:text-sm"
+                        className="inline-block mt-3 px-4 py-2 bg-babyPurple text-black font-semibold rounded-full hover:bg-primaryBlue transition text-xs sm:text-sm"
                       >
                         Ver credencial
                       </a>
                     )}
-
                     <span
                       className={`text-sm mt-2 block ${
                         isCurrent
