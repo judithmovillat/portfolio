@@ -143,15 +143,6 @@ export default function Trajectory() {
                         Ver credencial
                       </a>
                     )}
-                    <span
-                      className={`text-sm mt-2 block ${
-                        isCurrent
-                          ? "text-babyPurple font-semibold"
-                          : "text-gray-400"
-                      }`}
-                    >
-                      {item.date}
-                    </span>
                   </div>
                 </div>
 
