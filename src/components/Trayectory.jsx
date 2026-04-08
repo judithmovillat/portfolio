@@ -5,30 +5,22 @@ import React from "react";
 const trajectoryData = [
   {
     date: "abril 2026 - Presente",
-    title: "Certificación Inteligencia Empresarial",
-    subtitle: "EOI - Escuela de Organización Industrial",
+    title: "IBM Data Science Professional Certificate",
+    subtitle: "Beca IBM - Coursera",
     description:
-      "Siguiendo en el estudio de más ramas informáticas decido aprender acerca de IA empresarial, Big Data y herramientas que ayuden a empresas PYMEs a digitalizarse y ganar mayor alcance."
+      "Siguiendo en el estudio de más ramas informáticas, decido aprender acerca de la ciencia y el análisis de datos de la mano de IBM con una certificación profesional oficial equivalente a 6 ECTS"
+  },{
+    date: "abril 2026",
+    title: "Certificación Manager IT (Management 3.0)",
+    subtitle: "OpenWebinars",
+    description:
+      "Continúo mi formación en gestión de equipos y proyectos y aprendo sobre la gestión Management 3.0, así como en inteligencia emocional aplicada a equipos de alto rendimiento, Design Thinking y Lean Change Management."
   },{
     date: "marzo 2026",
     title: "Certificación Business Analytics y Business Intelligence",
     subtitle: "ODISEA Data - FUNDAE",
     description:
-      "Con el intento fallido de poder especializarme en ciencia de datos en 2024 como continuación de mi grado universitario, opto por formarme en BA y BI para poder combinarlo en un futuro con mi trabajo en bases de datos y reporting."
-  },
-  {
-    date: "marzo 2026",
-    title: "Certificación Oracle Cloud Infraestructure",
-    subtitle: "Primeros pasos con entornos cloud",
-    description:
-      "Tras un descanso en formación, decido volver a ello de la mano de Oracle y me adentro a conocer los entornos cloud y su funcionamiento"
-  },
-  {
-    date: "octubre 2023 - Presente",
-    title: "Analista-Desarrolladora de Software",
-    subtitle: "Oracle, PL/SQL, Tortoise SVN (CI/CD)",
-    description:
-      "Desde mis prácticas del grado universitario en EDISA, diseño y desarrollo soluciones propias y empresariales combinado con análisis funcional. He trabajado en empresas como EDISA, Ayesa Advanced Technologies y actualmente estoy en Virtual Desk."
+      "Opto por formarme en BA y BI para poder combinarlo en un futuro con mi trabajo en bases de datos y reporting."
   },
   {
     date: "diciembre 2024",
@@ -36,6 +28,13 @@ const trajectoryData = [
     subtitle: "Adentrándome en la gestión de proyectos TI",
     description:
       "Decido ampliar mis conocimientos en más ramas de la informática como puede ser en la dirección y gestión de proyectos TI. Aprendo acerca de la puesta en marcha de proyectos en base a metodologías como SCRUM, Agile, Kanban, LEAN, Leanban, etc."
+  },
+  {
+    date: "octubre 2023 - Presente",
+    title: "Analista-Desarrolladora de Software",
+    subtitle: "Oracle, PL/SQL, Tortoise SVN (CI/CD)",
+    description:
+      "Desde mis prácticas del grado universitario en EDISA, diseño y desarrollo soluciones propias y empresariales combinado con análisis funcional. He trabajado en empresas como EDISA, Ayesa Advanced Technologies, Virtual Desk y actualmente estoy en Plexus Tech."
   },
   {
     date: "octubre 2023",

@@ -1,14 +1,20 @@
 import React from "react";
+import intImage from "../assets/grupo-internaco.jpg";
 import mdImage from "../assets/md.jpg";
 import jAImage from "../assets/junta_andalucia.png";
 import libImage from "../assets/libra.png";
 import tfgImage from "../assets/rapidminer_logo.jpg";
 
-const projects = [
+const projects = [  
+  { 
+    title: "Internaco Group", 
+    description: "Desarrollo y mantenimiento de todo el sistema empresarial de las filiales y empresas que forman el grupo Internaco", 
+    current: true,
+    image: intImage
+  },
   { 
     title: "Consorcio Regional de Transportes de Madrid (CRTM) y Madrid Digital", 
     description: "Nuevos desarrollos y soporte del sistema de transportes de la Comunidad de Madrid", 
-    current: true,
     image: mdImage
   },
   { 
