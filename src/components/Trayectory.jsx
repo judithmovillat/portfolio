@@ -16,25 +16,29 @@ const trajectoryData = [
     subtitle: "Beca IBM - Coursera",
     description:
       "Siguiendo en el estudio de más ramas informáticas, decido aprender acerca de la ciencia y el análisis de datos de la mano de IBM con una certificación profesional oficial equivalente a 6 ECTS"
-  },{
+  },
+  {
     date: "abril 2026",
     title: "Certificación Manager IT (Management 3.0)",
     subtitle: "OpenWebinars",
     description:
       "Continúo mi formación en gestión de equipos y proyectos y aprendo sobre la gestión Management 3.0, así como en inteligencia emocional aplicada a equipos de alto rendimiento, Design Thinking y Lean Change Management."
-  },{
+  },
+  {
     date: "marzo 2026",
     title: "Certificación Business Analytics y Business Intelligence",
     subtitle: "ODISEA Data - FUNDAE",
     description:
-      "Opto por formarme en BA y BI para poder combinarlo en un futuro con mi trabajo en bases de datos y reporting."
+      "Opto por formarme en BA y BI para poder combinarlo en un futuro con mi trabajo en bases de datos y reporting.",
+    link: "https://www.efundae.es/mod/customcert/verify_certificate.php?code=TdaoAwUaID"
   },
   {
     date: "diciembre 2024",
     title: "Certificación SCRUM Master",
     subtitle: "Adentrándome en la gestión de proyectos TI",
     description:
-      "Decido ampliar mis conocimientos en más ramas de la informática como puede ser en la dirección y gestión de proyectos TI. Aprendo acerca de la puesta en marcha de proyectos en base a metodologías como SCRUM, Agile, Kanban, LEAN, Leanban, etc."
+      "Decido ampliar mis conocimientos en más ramas de la informática como puede ser en la dirección y gestión de proyectos TI. Aprendo acerca de la puesta en marcha de proyectos en base a metodologías como SCRUM, Agile, Kanban, LEAN, Leanban, etc.",
+    link: "https://scrummanager.com/website/c/profile/member.php?id=50261"
   },
   {
     date: "octubre 2023 - abril 2026",
@@ -48,7 +52,8 @@ const trajectoryData = [
     title: "Certificaciones Marketing Digital, Inbound Marketing y SEO",
     subtitle: "HubSpot Academy",
     description:
-      "Empiezo en el mundo de las certificaciones decidiendo aprender en marketing pero orientado a mis estudios en informática."
+      "Empiezo en el mundo de las certificaciones decidiendo aprender en marketing pero orientado a mis estudios en informática.",
+    link: "https://app-eu1.hubspot.com/academy/achievements/6vyym5ct/es/1/judith-movilla/marketing-digital"
   },
   {
     date: "octubre 2022 - julio 2023",
@@ -94,10 +99,10 @@ export default function Trajectory() {
         {/* Línea central */}
         <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-primaryBlue"></div>
 
-        {/* Eventos */}
         <div className="flex flex-col space-y-12">
           {trajectoryData.map((item, index) => {
-            const isCurrent = item.date.includes("Presente"); // detecta donde estás actualmente
+            const isCurrent = item.date.includes("Presente");
+
             return (
               <div
                 key={index}
@@ -111,12 +116,29 @@ export default function Trajectory() {
                       isCurrent ? "border-babyPurple" : "border-gray-800"
                     } bg-gray-800`}
                   >
-                    <h3 className="text-xl font-bold mb-1 text-lightWhite">{item.title}</h3>
+                    <h3 className="text-xl font-bold mb-1 text-lightWhite">
+                      {item.title}
+                    </h3>
                     <h4 className="text-babyBlue mb-2">{item.subtitle}</h4>
                     <p className="text-gray-300">{item.description}</p>
+
+                    {/* BOTÓN SOLO SI HAY LINK */}
+                    {item.link && (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-4 py-2 bg-babyPurple text-black font-semibold rounded-full hover:bg-primaryBlue transition text-xs sm:text-sm"
+                      >
+                        Ver credencial
+                      </a>
+                    )}
+
                     <span
-                      className={`text-sm mt-2 inline-block ${
-                        isCurrent ? "text-babyPurple font-semibold" : "text-gray-400"
+                      className={`text-sm mt-2 block ${
+                        isCurrent
+                          ? "text-babyPurple font-semibold"
+                          : "text-gray-400"
                       }`}
                     >
                       {item.date}
@@ -124,7 +146,7 @@ export default function Trajectory() {
                   </div>
                 </div>
 
-                {/* Círculo en la línea */}
+                {/* Círculo */}
                 <div className="flex justify-center items-center md:w-1/12">
                   <div
                     className={`w-6 h-6 rounded-full z-10 ${
