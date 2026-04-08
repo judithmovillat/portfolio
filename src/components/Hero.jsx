@@ -14,7 +14,7 @@ const Hero = () => {
             Hola, soy <span className="text-babyBlue">Judith Movilla</span>
           </h2>
           <p className="mt-4 text-lg sm:text-xl text-lightWhite whitespace-pre-line">
-            Analista-desarrolladora de Software{"\n"}
+            Consultora Funcional ERP{"\n"}
             Ingeniera Informática{"\n"}
             SCRUM Master
           </p>

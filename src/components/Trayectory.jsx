@@ -5,6 +5,13 @@ import React from "react";
 const trajectoryData = [
   {
     date: "abril 2026 - Presente",
+    title: "Consultora Funcional ERP",
+    subtitle: "Plexus Tech",
+    description:
+      "Tras un salto evolutivo en mi carrera profesional, me dedico a analizar, estudiar y desarrollar el impacto de los cambios de software empresarial sobre el negocio, así como la integración de aplicaciones externas con el ERP de Internaco Group."
+  },
+  {
+    date: "abril 2026 - Presente",
     title: "IBM Data Science Professional Certificate",
     subtitle: "Beca IBM - Coursera",
     description:
@@ -30,11 +37,11 @@ const trajectoryData = [
       "Decido ampliar mis conocimientos en más ramas de la informática como puede ser en la dirección y gestión de proyectos TI. Aprendo acerca de la puesta en marcha de proyectos en base a metodologías como SCRUM, Agile, Kanban, LEAN, Leanban, etc."
   },
   {
-    date: "octubre 2023 - Presente",
+    date: "octubre 2023 - abril 2026",
     title: "Analista-Desarrolladora de Software",
     subtitle: "Oracle, PL/SQL, Tortoise SVN (CI/CD)",
     description:
-      "Desde mis prácticas del grado universitario en EDISA, diseño y desarrollo soluciones propias y empresariales combinado con análisis funcional. He trabajado en empresas como EDISA, Ayesa Advanced Technologies, Virtual Desk y actualmente estoy en Plexus Tech."
+      "Desde mis prácticas del grado universitario en EDISA, diseño y desarrollo soluciones propias y empresariales combinado con análisis funcional. He trabajado en empresas como EDISA, Ayesa Advanced Technologies y Virtual Desk."
   },
   {
     date: "octubre 2023",
