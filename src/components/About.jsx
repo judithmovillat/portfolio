@@ -13,7 +13,7 @@ const About = () => {
       {/* Bloque de introducción */}
       <p className="max-w-3xl sm:max-w-4xl mx-auto text-lightWhite text-base sm:text-lg md:text-xl leading-relaxed mb-10 md:mb-14 font-poppins">
         Soy una profesional apasionada por la <span className="text-babyPurple font-semibold">gestión de la tecnología</span> y el <span className="text-babyPurple font-semibold">análisis de datos</span>, 
-        ejerciendo como consultora funcional enfocada en el análisis, estudio y desarrollo evolutivo y correctivo de ERP con tecnologías Oracle y bases de datos. 
+        ejerciendo como analista-desarrolladora de software enfocada en el análisis, estudio y desarrollo evolutivo y correctivo de ERP con tecnologías Oracle y bases de datos. 
         Creo soluciones robustas y eficientes para la gestión de información y evalúo el impacto de las aplicaciones sobre los datos y viceversa. 
         Además, estoy continuamente aprendiendo (algo que me encanta) y cada día me esfuerzo poco a poco para seguir mejorando.
         

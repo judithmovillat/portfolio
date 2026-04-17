@@ -5,18 +5,12 @@ import React from "react";
 const trajectoryData = [
   {
     date: "abril 2026 - Presente",
-    title: "Consultora Funcional ERP",
-    subtitle: "Plexus Tech",
-    description:
-      "Tras un salto evolutivo en mi carrera profesional, me dedico a analizar, estudiar y desarrollar el impacto de los cambios de software empresarial sobre el negocio, así como la integración de aplicaciones externas con el ERP de Internaco Group."
-  },
-  {
-    date: "abril 2026 - Presente",
     title: "IBM Data Science Professional Certificate",
     subtitle: "Beca IBM - Coursera",
     description:
       "Siguiendo en el estudio de más ramas informáticas, decido aprender acerca de la ciencia y el análisis de datos de la mano de IBM con una certificación profesional oficial equivalente a 6 ECTS"
-  },
+    ,link: "https://www.credly.com/badges/7d497847-2a08-469d-b7be-aa7a1a1df31b/linked_in_profile"
+    },
   {
     date: "abril 2026",
     title: "Certificación Manager IT (Management 3.0)",
@@ -41,11 +35,11 @@ const trajectoryData = [
     link: "https://scrummanager.com/website/c/profile/member.php?id=50261"
   },
   {
-    date: "octubre 2023 - abril 2026",
+    date: "octubre 2023 - pRESENTE",
     title: "Analista-Desarrolladora de Software",
     subtitle: "Oracle, PL/SQL, Tortoise SVN (CI/CD)",
     description:
-      "Desde mis prácticas del grado universitario en EDISA, diseño y desarrollo soluciones propias y empresariales combinado con análisis funcional. He trabajado en empresas como EDISA, Ayesa Advanced Technologies y Virtual Desk."
+      "Desde mis prácticas del grado universitario en EDISA, diseño y desarrollo soluciones propias y empresariales combinado con análisis funcional. He trabajado en empresas como EDISA, Ayesa Advanced Technologies, Virtual Desk y ahora me encuentro en Plexus Tech."
   },
   {
     date: "octubre 2023",
