@@ -35,7 +35,7 @@ const trajectoryData = [
     link: "https://scrummanager.com/website/c/profile/member.php?id=50261"
   },
   {
-    date: "octubre 2023 - pRESENTE",
+    date: "octubre 2023 - Presente",
     title: "Analista-Desarrolladora de Software",
     subtitle: "Oracle, PL/SQL, Tortoise SVN (CI/CD)",
     description:
